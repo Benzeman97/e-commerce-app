@@ -12,7 +12,6 @@ export const CartList=({value}) =>{
                    return <CartItem key={item.prodId} item={item} value={value}/>
                 })
             }
-            <CartTotal value={value}/>
         </div>
     );
 }
